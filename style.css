@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: rgb(17, 203, 216);
+    background: linear-gradient(90deg, rgba(17, 203, 216, 1) 0%, rgba(135, 120, 172, 1) 26%, rgba(177, 94, 94, 1) 51%, rgba(34, 182, 111, 1) 80%, rgba(56, 167, 233, 1) 100%);
+}
+
+.wrapper {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1,
+ol {
+    margin: 0 auto;
+}
+
+ol {
+    width: 90%;
+    font-size: 18px;
+}
+
+ol,
+img {
+    margin-top: 20px;
+}
+
+img {
+    width: auto;
+    border: rgba(56, 167, 233, 1) 1px ridge;
+}
